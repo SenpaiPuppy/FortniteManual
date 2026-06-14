@@ -1,0 +1,1135 @@
+[
+  {
+    "name": "Early Bird",
+    "category": [
+      "First in Match"
+    ],
+    "requires": "{EarlyBird()}"
+  },
+  {
+    "name": "First Strike",
+    "category": [
+      "First in Match"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Quick Exit",
+    "category": [
+      "First in Match"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "First Landing",
+    "category": [
+      "First in Match"
+    ],
+    "requires": ""
+  },
+
+
+
+
+  {
+    "name": "Rapid Rampage",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{RapidRampage()} and {RarityRare()}"
+  },
+  {
+    "name": "Shell Shocked",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{ShellShocked()} and {RarityRare()}"
+  },
+  {
+    "name": "Subtle Savagery",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{SubtleSavagery()} and {RarityRare()}"
+  },
+  {
+    "name": "Steady Sharpshooter",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{SteadySharpshooter()} and {RarityEpic()}"
+  },
+  {
+    "name": "Pinpoint Precision",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{PinpointPrecision()} and {RarityRare()}"
+  },
+  {
+    "name": "Jack of All Trades",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{RapidRampage()} and {ShellShocked()} and {SubtleSavagery()} and {PinpointPrecision()} and {RarityRare()}"
+  },
+  {
+    "name": "One Man's Trash",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{OneMansTrash()}"
+  },
+  {
+    "name": "One Man's Treasure",
+    "category": [
+      "Weapons"
+    ],
+    "requires": "{WeaponUpgrade()} and {LegendaryRarity()}"
+  },
+
+
+
+
+
+  {
+    "name": "Single Digit",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{UncommonRarity()}"
+  },
+  {
+    "name": "Double Digits",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{RarityRare()}"
+  },
+  {
+    "name": "Elimination Collector",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{RarityEpic()}"
+  },
+  {
+    "name": "Elimination Hoarder",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{LegendaryRarity()}"
+  },
+  {
+    "name": "Elimination Escapade",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{LegendaryRarity()}"
+  },
+  {
+    "name": "Double Elimination",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{UncommonRarity()} and {DuosGamemode()}"
+  },
+  {
+    "name": "Multi Elimination",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{RarityRare()} and {TriosGamemode()}"
+  },
+  {
+    "name": "Mega Elimination",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{RarityRare()} and {SquadsGamemode()}"
+  },
+  {
+    "name": "Epic Elimination",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{RarityEpic()} and {SquadsGamemode()}"
+  },
+  {
+    "name": "Impossible Shot",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{ImpossibleShot()} and {RarityRare()}"
+  },
+  {
+    "name": "Off the Dome",
+    "category": [
+      "Combat"
+    ],
+    "requires": "{OffTheDome()}"
+  },
+
+
+
+
+
+  {
+    "name": "Against the World",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{SquadsGamemode()} and {LegendaryRarity()} and {AgainstTheWorld()}"
+  },
+  {
+    "name": "Three to One Odds",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{TriosGamemode()} and {RarityEpic()} and {AgainstTheWorld()}"
+  },
+  {
+    "name": "Two to One Odds",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{DuosGamemode()} and {RarityRare()} and {AgainstTheWorld()}"
+  },
+  {
+    "name": "Pacifist",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{TriosGamemode()}"
+  },
+  {
+    "name": "True Pacifist",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{SquadsGamemode()}"
+  },
+  {
+    "name": "I'm Fine, Really",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{ImFineReally()} and {TriosGamemode()}"
+  },
+  {
+    "name": "Who Needs 'Em?",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{WhoNeedsEm()} and {TriosGamemode()}"
+  },
+  {
+    "name": "There's No Time",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{TriosGamemode()}"
+  },
+  {
+    "name": "This Isn't Zero Build?",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{DuosGamemode()}"
+  },
+  {
+    "name": "Maximum Overshields",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{MaximumOvershields()} and {TriosGamemode()}"
+  },
+  {
+    "name": "Knife to a Gun Fight",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{DemolitionDomination()} and {DuosGamemode()}"
+  },
+  {
+    "name": "Royal Preservation",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{UncommonRarity()} and {AgainstTheWorld()} and {DuosGamemode()}"
+  },
+  {
+    "name": "All Hail the Crown",
+    "category": [
+      "Victory Royale"
+    ],
+    "requires": "{UncommonRarity()} and {AgainstTheWorld()} and {DuosGamemode()}"
+  },
+
+
+
+
+
+  {
+    "name": "Survivor I (50 Players Remaining)",
+    "category": [
+      "Survival"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survivor II (25 Players Remaining)",
+    "category": [
+      "Survival"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survivor III (10 Players Remaining)",
+    "category": [
+      "Survival"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Survivor IV (3 Players Remaining)",
+    "category": [
+      "Survival"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fruits and Veggies",
+    "category": [
+      "Survival"
+    ],
+    "requires": "{FruitsAndVeggies()}"
+  },
+  {
+    "name": "Relentless",
+    "category": [
+      "Survival"
+    ],
+    "requires": "{DuosGamemode()}"
+  },
+  {
+    "name": "Celebrated Crawler",
+    "category": [
+      "Survival"
+    ],
+    "requires": "{DuosGamemode()} and {SelfReviveDevice()}"
+  },
+
+
+
+
+
+  {
+    "name": "Demolition Domination",
+    "category": [
+      "Resources"
+    ],
+    "requires": "{DemolitionDomination()}"
+  },
+  {
+    "name": "Bustling Builder",
+    "category": [
+      "Resources"
+    ],
+    "requires": "{BustlingBuilder()}"
+  },
+
+
+
+
+
+  {
+    "name": "Reboot Revenge",
+    "category": [
+      "Social"
+    ],
+    "requires": "{OneMansTrash()} and {RarityRare()}"
+  },
+  {
+    "name": "Stay Down",
+    "category": [
+      "Social"
+    ],
+    "requires": "{OneMansTrash()} and {RarityRare()}"
+  },
+  {
+    "name": "Carrying",
+    "category": [
+      "Social"
+    ],
+    "requires": "{OneMansTrash()} and {RarityRare()}"
+  },
+  {
+    "name": "Support Class",
+    "category": [
+      "Social"
+    ],
+    "requires": "{DuosGamemode()}"
+  },
+  {
+    "name": "Reboot Van Rebooting...",
+    "category": [
+      "Social"
+    ],
+    "requires": "{DuosGamemode()}"
+  },
+  {
+    "name": "Hired Gun",
+    "category": [
+      "Social"
+    ],
+    "requires": "{CharacterRecruit()}"
+  },
+  {
+    "name": "Helping Hand",
+    "category": [
+      "Social"
+    ],
+    "requires": "{CharacterRecruit()}"
+  },
+
+
+
+  {
+    "name": "Thank You Kindly",
+    "category": [
+      "Special"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Better Late Than Never",
+    "category": [
+      "Special"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Only the Best",
+    "category": [
+      "Special"
+    ],
+    "requires": "{LegendaryRarity()} and {WeaponUpgrade()}"
+  },
+  {
+    "name": "Road Trip",
+    "category": [
+      "Special"
+    ],
+    "requires": "{RoadTrip()}"
+  },
+
+
+
+
+
+  {
+    "name": "Edison's Medicine",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{SelfReviveDevice()}"
+  },
+  {
+    "name": "Meat Wagon Marathon",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{RoadTrip()}"
+  },
+  {
+    "name": "Totally Real Science!",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Master Extractor",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{MasterExtractor()}"
+  },
+  {
+    "name": "Duckstep",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{DanceLessons()}"
+  },
+  {
+    "name": "Safequacker",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{DuckVaultKey()}"
+  },
+  {
+    "name": "Riverfowl Regatta",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Average Looper",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{AverageLooper()}"
+  },
+  {
+    "name": "Path of Least Resistance",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Boot-y Blast",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{SevenSliders()}"
+  },
+  {
+    "name": "Deconsecrated",
+    "category": [
+      "Seasonal"
+    ],
+    "requires": "{Deconsecrated()}"
+  },
+
+
+  
+  {
+    "name": "Delicious Catch",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Fishing()}"
+  },
+  {
+    "name": "Adventure Buddies",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{CharacterRecruit()}"
+  },
+  {
+    "name": "The Gift of Life",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Patch Up, Pronto!",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Shopping Spree",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{AverageLooper()}"
+  },
+  {
+    "name": "Loot Stockpiler",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "High Roller",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{AverageLooper()}"
+  },
+  {
+    "name": "Feed Finder",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{FruitsAndVeggies()}"
+  },
+  {
+    "name": "Resourcefulness",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Resourcefulness()}"
+  },
+
+
+
+  {
+    "name": "Zip Zonk Bang - Shooting Range Round 1",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Zip Zonk Bang - Shooting Range Round 2",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": ""
+  },
+
+  {
+    "name": "Search - Chest",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Rare Chest",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Ammo Box",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Rare Ammo Box",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Cash Register",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Safe",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Produce Box",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Fishing Barrel",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Particle Accelerator Vault",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()} and {UnstableElement()}"
+  },
+  {
+    "name": "Search - Sprite Chest",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Search - Vault",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{NormalVaultKey()}"
+  },
+  {
+    "name": "Search - Epic Vault",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{EpicVaultKey()}"
+  },
+
+  
+  {
+    "name": "Cluster's Securing Sprites: Start Quest",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{MasterExtractor()}"
+  },
+  {
+    "name": "Dylan's Merc Munitions: Start Quest",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+
+
+
+
+  
+ 
+
+
+
+  {
+    "name": "Defeat Boss - Wolfe",
+    "category": [
+      "Boss"
+    ],
+    "requires": "{DuosGamemode()} and {UncommonRarity()}"
+  },
+  {
+    "name": "Defeat Boss - The Voidblade",
+    "category": [
+      "Boss"
+    ],
+    "requires": "{DuosGamemode()} and {UncommonRarity()}"
+  },
+  {
+    "name": "Defeat Boss - Skeletor",
+    "category": [
+      "Boss"
+    ],
+    "requires": "{DuosGamemode()} and {UncommonRarity()}"
+  },
+  {
+    "name": "Rescue Boss - John Wick's Dog",
+    "category": [
+      "Boss"
+    ],
+    "requires": "{DuosGamemode()} and {UncommonRarity()}"
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Victory Eliminations - 5",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Victory Eliminations - 10",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:1|"
+  },
+  {
+    "name": "Victory Eliminations - 15",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:2|"
+  },
+  {
+    "name": "Victory Eliminations - 20",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:3|"
+  },
+  {
+    "name": "Victory Eliminations - 25",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:4|"
+  },
+  {
+    "name": "Victory Eliminations - 30",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:5|"
+  },
+  {
+    "name": "Victory Eliminations - 35",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:6|"
+  },
+  {
+    "name": "Victory Eliminations - 40",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:7|"
+  },
+  {
+    "name": "Victory Eliminations - 45",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:8|"
+  },
+  {
+    "name": "Victory Eliminations - 50",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:9|"
+  },
+  {
+    "name": "Victory Eliminations - 55",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:10|"
+  },
+  {
+    "name": "Victory Eliminations - 60",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:11|"
+  },
+  {
+    "name": "Victory Eliminations - 65",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:12|"
+  },
+  {
+    "name": "Victory Eliminations - 70",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:13|"
+  },
+  {
+    "name": "Victory Eliminations - 75",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:14|"
+  },
+  {
+    "name": "Victory Eliminations - 80",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:15|"
+  },
+  {
+    "name": "Victory Eliminations - 85",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:16|"
+  },
+  {
+    "name": "Victory Eliminations - 90",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:17|"
+  },
+  {
+    "name": "Victory Eliminations - 95",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:18|"
+  },
+  {
+    "name": "Victory Eliminations - 100",
+    "category": [
+      "Eliminations"
+    ],
+    "place_item": [
+      "Elimination Tokens"
+    ],
+    "requires": "|Elimination Tokens:19|"
+  },
+
+
+
+
+  
+  {
+    "name": "Eliminations - (5)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (10)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (15)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (20)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (25)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (30)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (35)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (40)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (45)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (50)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (55)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (60)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (65)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (70)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (75)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (80)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (85)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (90)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (95)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (100)",
+    "category": ["Eliminations"]
+  },  
+  {
+    "name": "Eliminations - (105)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (110)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (115)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (120)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (125)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (130)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (135)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (140)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (145)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (150)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (155)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (160)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (165)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (170)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (175)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (180)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (185)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (190)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (195)",
+    "category": ["Eliminations"]
+  },
+  {
+    "name": "Eliminations - (200)",
+    "category": ["Eliminations"]
+  },
+
+
+
+
+
+
+
+  {
+    "name": "Goal - VictoryCrowns",
+    "victory": true,
+    "category": [
+
+    ],
+    "requires": "{victoryCrown()}"
+  },
+  {
+    "name": "Goal - Eliminations",
+    "victory": true,
+    "category": [
+
+    ],
+    "requires": "{eliminationGoal()}"
+  },
+  {
+    "name": "Goal - Accolades/Victory Royale",
+    "victory": true,
+    "category": [
+
+    ],
+    "requires": "{accolade_goal()}"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "FNBR_Runners",
+  "creator": "SenpaiPuppy",
+  "filler_item_name": "200 Gold Bars",
+  "starting_items": []
+}

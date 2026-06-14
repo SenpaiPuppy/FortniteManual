@@ -1,0 +1,812 @@
+[
+  {
+    "count": 1,
+    "name": "Chaos Exploder Rifle",
+    "category": [
+      "Assault Rifle"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Surgical Pulse Rifle",
+    "category": [
+      "Assault Rifle"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Warforged Assault Rifle",
+    "category": [
+      "Assault Rifle"
+    ],
+    "progression": true
+  },
+
+  {
+    "count": 1,
+    "name": "Hunting Rifle",
+    "category": [
+      "Sniper"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 0,
+    "name": "Chaos Reloader Shotgun",
+    "category": [
+      "Shotgun"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Extending Focus Shotgun",
+    "category": [
+      "Shotgun"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Striker Pump Shotgun",
+    "category": [
+      "Shotgun"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Maven Auto Shotgun",
+    "category": [
+      "Shotgun"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Flex SMG",
+    "category": [
+      "SMG"
+    ],
+    "progression": true
+  },
+
+  {
+    "count": 1,
+    "name": "Stinger SMG",
+    "category": [
+      "SMG"
+    ],
+    "progression": true
+  },
+
+
+
+  {
+    "count": 1,
+    "name": "Ranger Pistol",
+    "category": [
+      "Pistol"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Lancehead Pistol",
+    "category": [
+      "Pistol"
+    ],
+    "progression": true
+  },
+
+
+
+
+  {
+    "count": 1,
+    "name": "Shield Breaker EMP",
+    "category": [
+      "Explosive"
+    ],
+    "progression": true
+  },
+
+
+  
+
+  {
+    "count": 1,
+    "name": "Pocket Item: Shockwave",
+    "category": [
+      "Pocket Item"
+    ]
+  },
+  {
+    "count": 1,
+    "name": "Pocket Item: Med-mist Smoke",
+    "category": [
+      "Pocket Item"
+    ]
+  },
+  {
+    "count": 1,
+    "name": "Pocket Item: Shield Bubble",
+    "category": [
+      "Pocket Item"
+    ]
+  },
+
+
+
+
+  {
+    "count": 0,
+    "name": "Port-A-Bunker",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 0,
+    "name": "Wood-N-Bunker",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Brick-A-Bunker",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Overdrive Grenade",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shrub Bomb",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Guardian Shield",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Smoke Cloud",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Seven Sliders",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pulse Scanner",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rift-To-Go",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Unstable Element",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Self-Revive Device",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Medkit",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bandages",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Guzzle Juice",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Small Shield Potion",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shield Potion",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Chug Jug",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Bush",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Business Turret",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Gold Spender",
+    "category": [
+      "Shopping"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sprite Dust",
+    "category": [
+      "Shopping"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ammo Restock",
+    "category": [
+      "Shopping"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Recruit Character",
+    "category": [
+      "Shopping"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Patch Up",
+    "category": [
+      "Shopping"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Activate Rift",
+    "category": [
+      "Shopping"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Upgrade Weapon",
+    "category": [
+      "Shopping"
+    ],
+    "progression": true
+  },
+
+
+
+  {
+    "count": 1,
+    "name": "Vault Key",
+    "category": [
+      "KeyCard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Epic Vault Key",
+    "category": [
+      "KeyCard"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Duck Vault Key",
+    "category": [
+      "KeyCard"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Wolfe's Maven Auto Shotgun",
+    "category": [
+      "SuperWeapon"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "The Voidblade's Burst Rifle",
+    "category": [
+      "SuperWeapon"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Reacher Extending Shotgun",
+    "category":[
+      "SuperWeapon"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "9mm Baba Yaga Pistol",
+    "category": [
+      "SuperWeapon"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Limitless Seven Sliders",
+    "category": [
+      "SuperWeapon",
+      "Utility"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  
+  {
+    "count": 1,
+    "name": "Rarity - Uncommon",
+    "category":[
+      "Rarity"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rarity - Rare",
+    "category":[
+      "Rarity"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rarity - Epic",
+    "category":[
+      "Rarity"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rarity - Legendary/Mythic",
+    "category":[
+      "Rarity"
+    ],
+    "progression": true
+  },
+  {
+    "count": 10,
+    "name": "Progressive Rarity",
+    "category":[
+      "Progressive"
+    ],
+    "progression": true
+  },
+  {
+    "count": 4,
+    "name": "Progressive Gamemode",
+    "category":[
+      "Progressive"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Dance Lessons",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Searchable Lessons",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Building Lessons",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Driving Lessons",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Forage Lessons",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Fishing Lessons",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 0,
+    "name": "Pocketing Lessons",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Assault Rifle Mastery",
+    "category":[
+      "Mastery"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shotgun Mastery",
+    "category":[
+      "Mastery"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "SMG Mastery",
+    "category":[
+      "Mastery"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pistol Mastery",
+    "category":[
+      "Mastery"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Melee Mastery",
+    "category":[
+      "Mastery"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Jump",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sprint",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ledge Jump",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wall Scramble",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mantle",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Crouch",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sliding",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Swimming",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hurdling",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Glider Redeploy",
+    "category":[
+      "Movement"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 1,
+    "name": "Materials - Wood",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Materials - Brick",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Materials - Metal",
+    "category":[
+      "Skills"
+    ],
+    "progression": true
+  },
+  {
+    "count": 5,
+    "name": "Progressive Building Materials",
+    "category":[
+      "Progressive"
+    ],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "name": "Water Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Earth Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Fire Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Duck Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Ghost Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Demon Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "King Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Dream Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Punk Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Zero Point Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+
+
+
+
+
+  {
+    "count": 50,
+    "name": "Victory Crown",
+    "category":[
+      "Goal Items"
+    ],
+    "progression": true
+  },
+  {
+    "count": 20,
+    "name": "Elimination Tokens",
+    "category":[
+      "Goal Items"
+    ],
+    "progression": true
+  }
+]
