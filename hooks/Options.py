@@ -32,10 +32,9 @@ class AccoladeGoal(Range): # pyright: ignore[reportGeneralTypeIssues]
     default = 40
 class SpritesNeeded(Range): # type: ignore
     """The total amount of Sprite Locations available to the Player
-    This is meant for Goals and General Locations as they don't have a specific item locked being it.
-    Because of that things may be in logic immediately for something like as a Sphere 0 Location.
-    Feel free to assign all or later Locations to exclude_locations in the Section of the Yaml.
-    If sprite_toggle is True, 7 Sprites are required for Goal to be accessible, else just Searchable Lessons."""
+    This is meant for both Goals and General Locations as they don't have a specific item locked being it.
+    If sprite_toggle is True,
+    (Region 2 [Locations 11-20] Needs 2 Sprites and Searchables) -> (Region 3 [Locations 21-30] Needs 3 Sprites and Searchables)"""
     range_start = 0
     range_end = 100
     default = 10
