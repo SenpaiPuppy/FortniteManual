@@ -6,9 +6,6 @@ from ..Data import location_table
 
 import re
 
-
-
-
 def EarlyBird(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     RarityEnabled = world.options.rarity_toggle.value
     ProRarity = world.options.progressive_rarities.value
@@ -47,36 +44,31 @@ def RapidRampage(world: World, multiworld: MultiWorld, player: int, state: Colle
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|Assault Rifle Mastery| and |@Assault Rifle:1|"
-    else: 
-        return "|@Assault Rifle:1|"
+    return "|@Assault Rifle:1|"
 
 def ShellShocked(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|Assault Rifle Mastery| and |@Assault Rifle:1|"
-    else: 
-        return "|@Assault Rifle:1|"
+    return "|@Assault Rifle:1|"
 
 def SubtleSavagery(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|Assault Rifle Mastery| and |@Assault Rifle:1|"
-    else: 
-        return "|@Assault Rifle:1|"
+    return "|@Assault Rifle:1|"
     
 def SteadySharpshooter(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|Assault Rifle Mastery| and |@Sniper:1|"
-    else: 
-        return "|@Sniper:1|"
+    return "|@Sniper:1|"
 
 def PinpointPrecision(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
-        return "|Assault Rifle Mastery| and |@Assault Rifle:1|"
-    else: 
-        return "|@Assault Rifle:1|"
+        return "|Assault Rifle Mastery| and |@Assault Rifle:1|" 
+    return "|@Assault Rifle:1|"
     
 def OneMansTrash(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
@@ -89,46 +81,43 @@ def OneMansTrash(world: World, multiworld: MultiWorld, player: int, state: Colle
     if Gamemode == False:
         if Toggle == True:
             return "|@Mastery:2|"
-    else:
-        return True
+    return True
 
 def ImpossibleShot(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|Assault Rifle Mastery| and |Hunting Rifle|"
-    else: return "|Hunting Rifle|"
+    return "|Hunting Rifle|"
 
 def OffTheDome(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|SMG Mastery| and |Pistol Mastery| and |@Pistol:1| and |@SMG:1|"
-    else: return "|@Pistol:1| and |@SMG:1|"
+    return "|@Pistol:1| and |@SMG:1|"
 
 def AgainstTheWorld(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|@Mastery:2|"
-    else:
-        return True
+    return True
     
 def FruitsAndVeggies(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     skills = world.options.lesson_skills.value
     if "Forage Lessons" in skills:
         return "|Forage Lessons|"
-    else: return True
+    return True
 
 def SelfReviveDevice(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.consumable_toggle.value
     if Toggle == True:
         return "|Self-Revive Device|"
-    else: return True
+    return True
 
 def DemolitionDomination(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
     if Toggle == True:
         return "|Melee Mastery|"
-    else:
-        return True
+    return True
     
 def BustlingBuilder(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Mats = world.options.resourceful_materials.value
@@ -141,7 +130,7 @@ def BustlingBuilder(world: World, multiworld: MultiWorld, player: int, state: Co
         if Mats == 1: return True
         if Mats == 2: return "|Materials - Wood| or |Materials - Metal| or |Materials - Brick|"
         if Mats >= 3: return "|Progressive Building Materials|"
-    else: return True
+    return True
 
 def Resourcefulness(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Mats = world.options.resourceful_materials.value
@@ -153,7 +142,7 @@ def Resourcefulness(world: World, multiworld: MultiWorld, player: int, state: Co
     if skills == False:
         if Mats == 2: return "|Materials - Wood| or |Materials - Metal| or |Materials - Brick|"
         if Mats >= 3: return "|Progressive Building Materials|"
-    else: return True
+    return True
 
 def CharacterRecruit(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Shopping = world.options.shopping_items.value
@@ -165,13 +154,13 @@ def CharacterRecruit(world: World, multiworld: MultiWorld, player: int, state: C
     if "Recruit Characters" in Shopping:
         if "Gold Spender" not in Shopping:
             return "|Recruit Character|"
-    else: return True
+    return True
 
 def RoadTrip(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Skills = world.options.lesson_skills.value
     if "Driving Lessons" in Skills:
         return "|Driving Lessons|"
-    else: return True
+    return True
 
 def MasterExtractor(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Sprite = world.options.sprite_toggle.value
@@ -184,13 +173,13 @@ def MasterExtractor(world: World, multiworld: MultiWorld, player: int, state: Co
     if Sprite == True:
         if "Searchable Lessons" not in Skills:
             return "|@Sprites:2|"
-    else: return True
+    return True
 
 def AverageLooper(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Shopping = world.options.shopping_items.value
     if "Gold Spender" in Shopping:
         return "|Gold Spender|"
-    else: return True
+    return True
 
 def SevenSliders(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Utility = world.options.utlity_toggle.value
@@ -201,7 +190,7 @@ def SevenSliders(world: World, multiworld: MultiWorld, player: int, state: Colle
     if Super == False:
         if Utility == True:
             return "|Seven Sliders|"
-    else: return True
+    return True
 
 def Deconsecrated(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     SuperWep = world.options.super_weapon_varients.value
@@ -246,23 +235,22 @@ def Deconsecrated(world: World, multiworld: MultiWorld, player: int, state: Coll
                 return "(|Pistol Mastery| and |Lancehead Pistol|) or (|9mm Baba Yaga Pistol| and |Pistol Mastery|)"
             if Toggle == False:
                 return "|Lancehead Pistol| or |9mm Baba Yaga Pistol|"
-    else: return True
 
 def ImFineReally(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Consumables = world.options.consumable_toggle.value
     if Consumables == True:
         return "|Small Shield Potion| or |Shield Potion|"
-    else: return True
+    return True
 def WhoNeedsEm(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Consumables = world.options.consumable_toggle.value
     if Consumables == True:
         return "|Medkit| or |Bandages| or |Chug Jug| or |Guzzle Juice|"
-    else: return True
+    return True
 def MaximumOvershields(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Consumables = world.options.consumable_toggle.value
     if Consumables == True:
         return "|Small Shield Potion| or |Shield Potion| or |Chug Jug|"
-    else: return True
+    return True
 
 
 
@@ -270,43 +258,43 @@ def DuckVaultKey(world: World, multiworld: MultiWorld, player: int, state: Colle
     KeyCards = world.options.vault_key_cards.value
     if KeyCards == True:
         return "|Duck Vault Key|"
-    else: return True
+    return True
 
 def NormalVaultKey(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     KeyCards = world.options.vault_key_cards.value
     if KeyCards == True:
         return "|Vault Key|"
-    else: return True
+    return True
 
 def EpicVaultKey(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     KeyCards = world.options.vault_key_cards.value
     if KeyCards == True:
         return "|Epic Vault Key|"
-    else: return True
+    return True
 
 def Fishing(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     lessons = world.options.lesson_skills.value
     if "Fishing Lessons" in lessons:
         return "|Fishing Lessons|"
-    else: return True
+    return True
 
 def Searchables(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     lessons = world.options.lesson_skills.value
     if "Searchable Lessons" in lessons:
         return "|Searchable Lessons|"
-    else: return True
+    return True
 
 def UnstableElement(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     KeyCards = world.options.vault_key_cards.value
     if KeyCards == True:
         return "|Unstable Element|"
-    else: return True
+    return True
 
 def DanceLessons(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Lessons = world.options.lesson_skills.value
     if "Dance Lessons" in Lessons:
         return "|Dance Lessons|"
-    else: return True
+    return True
 
 def UncommonRarity(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     RarityEnabled = world.options.rarity_toggle.value
@@ -316,8 +304,7 @@ def UncommonRarity(world: World, multiworld: MultiWorld, player: int, state: Col
             return "|Progressive Rarity:1|"
         else: 
             return "|Rarity - Uncommon| or |Rarity - Rare| or |Rarity - Epic| or |Rarity - Legendary/Mythic|"
-    else: 
-        return True
+    return True
     
 def RarityRare(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     RarityEnabled = world.options.rarity_toggle.value
@@ -327,8 +314,7 @@ def RarityRare(world: World, multiworld: MultiWorld, player: int, state: Collect
             return "|Progressive Rarity:2|"
         else: 
             return "|Rarity - Rare| or |Rarity - Epic| or |Rarity - Legendary/Mythic|"
-    else: 
-        return True
+    return True
     
 def RarityEpic(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     RarityEnabled = world.options.rarity_toggle.value
@@ -338,8 +324,7 @@ def RarityEpic(world: World, multiworld: MultiWorld, player: int, state: Collect
             return "|Progressive Rarity:3|"
         else: 
             return "|Rarity - Epic| or |Rarity - Legendary/Mythic|"
-    else: 
-        return True
+    return True
 
 def LegendaryRarity(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     RarityEnabled = world.options.rarity_toggle.value
@@ -349,8 +334,7 @@ def LegendaryRarity(world: World, multiworld: MultiWorld, player: int, state: Co
             return "|Progressive Rarity:4|"
         else: 
             return "|Rarity - Legendary/Mythic|"
-    else: 
-        return True
+    return True
 
 def WeaponUpgrade(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     ShoppingItems = world.options.shopping_items.value
@@ -369,31 +353,17 @@ def DuosGamemode(world: World, multiworld: MultiWorld, player: int, state: Colle
     Toggle = world.options.progressive_gamemode.value
     if Toggle == True:
         return "|Progressive Gamemode:1|"
-    else:
-        return True
+    return True
 def TriosGamemode(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.progressive_gamemode.value
     if Toggle == True:
         return "|Progressive Gamemode:2|"
-    else:
-        return True
+    return True
 def SquadsGamemode(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.progressive_gamemode.value
     if Toggle == True:
         return "|Progressive Gamemode:3|"
-    else:
-        return True
-
-
-
-
-
-
-
-
-
-
-
+    return True
 
 
 
@@ -447,10 +417,31 @@ def victoryCrown(world:World, player: int, state: CollectionState):
 def eliminationGoal(world:World, player: int, state: CollectionState):
     EliminationTokens = world.options.elimination_goal.value #20 = 4 Tokens
     results = int(EliminationTokens / 5)
-    return f"|Elimination Tokens:{results}|"        
-    
+    return f"|Elimination Tokens:{results}|"
 
-
-
-
-    
+def spriteGoal(world:World, player: int, state: CollectionState):
+    SpritesToggle = world.options.sprite_toggle.value
+    SpriteCount = world.options.sprites_needed_goal.value
+    if SpritesToggle == False:
+        return True
+    if SpritesToggle == True:
+        if SpriteCount > 10 and SpriteCount <= 20:
+            return "|@Sprites:2|"
+        if SpriteCount > 20 and SpriteCount <= 30:
+            return "|@Sprites:3|"
+        if SpriteCount > 30 and SpriteCount <= 40:
+            return "|@Sprites:4|"
+        if SpriteCount > 40 and SpriteCount <= 50:
+            return "|@Sprites:5|"
+        if SpriteCount > 50 and SpriteCount <= 60:
+            return "|@Sprites:6|"
+        if SpriteCount > 60 and SpriteCount <= 70:
+            return "|@Sprites:7|"
+        if SpriteCount > 70 and SpriteCount <= 80:
+            return "|@Sprites:8|"
+        if SpriteCount > 80 and SpriteCount <= 90:
+            return "|@Sprites:9|"
+        if SpriteCount > 90 and SpriteCount <= 100:
+            return "|@Sprites:10|"
+        if SpriteCount <= 10:
+            return True

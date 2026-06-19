@@ -239,14 +239,6 @@
 
   {
     "count": 1,
-    "name": "Unstable Element",
-    "category": [
-      "Consumable"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
     "name": "Self-Revive Device",
     "category": [
       "Consumable"
@@ -405,6 +397,14 @@
     ],
     "progression": true
   },
+  {
+    "count": 1,
+    "name": "Unstable Element",
+    "category": [
+      "KeyCard"
+    ],
+    "progression": true
+  },
 
 
 
@@ -446,8 +446,7 @@
     "count": 1,
     "name": "Limitless Seven Sliders",
     "category": [
-      "SuperWeapon",
-      "Utility"
+      "SuperWeapon"
     ],
     "progression": true
   },

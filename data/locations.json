@@ -646,13 +646,6 @@
     "requires": "{Searchables()}"
   },
   {
-    "name": "Search - Particle Accelerator Vault",
-    "category": [
-      "Archipelago"
-    ],
-    "requires": "{Searchables()} and {UnstableElement()}"
-  },
-  {
     "name": "Search - Sprite Chest",
     "category": [
       "Archipelago"
@@ -660,14 +653,21 @@
     "requires": "{Searchables()}"
   },
   {
-    "name": "Search - Vault",
+    "name": "Open - Particle Accelerator Vault",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{UnstableElement()}"
+  },
+  {
+    "name": "Open - Vault",
     "category": [
       "Archipelago"
     ],
     "requires": "{NormalVaultKey()}"
   },
   {
-    "name": "Search - Epic Vault",
+    "name": "Open - Epic Vault",
     "category": [
       "Archipelago"
     ],
@@ -684,6 +684,13 @@
   },
   {
     "name": "Dylan's Merc Munitions: Start Quest",
+    "category": [
+      "Archipelago"
+    ],
+    "requires": "{Searchables()}"
+  },
+  {
+    "name": "Hope's Vision Decoding: Start Quest",
     "category": [
       "Archipelago"
     ],
@@ -1105,6 +1112,506 @@
 
 
 
+  {
+    "name": "Sprite Extracted - (01)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (02)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (03)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (04)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (05)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (06)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (07)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (08)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (09)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (10)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region Start"
+  },
+  {
+    "name": "Sprite Extracted - (11)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (12)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (13)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (14)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (15)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (16)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (17)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (18)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (19)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (20)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 2"
+  },
+  {
+    "name": "Sprite Extracted - (21)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (22)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (23)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (24)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (25)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (26)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (27)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (28)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (29)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (30)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 3"
+  },
+  {
+    "name": "Sprite Extracted - (31)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (32)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (33)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (34)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (35)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (36)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (37)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (38)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (39)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (40)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 4"
+  },
+  {
+    "name": "Sprite Extracted - (41)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (42)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (43)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (44)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (45)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (46)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (47)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (48)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (49)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (50)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 5"
+  },
+  {
+    "name": "Sprite Extracted - (51)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (52)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (53)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (54)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (55)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (56)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (57)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (58)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (59)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (60)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 6"
+  },
+  {
+    "name": "Sprite Extracted - (61)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (62)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (63)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (64)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (65)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (66)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (67)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (68)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (69)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (70)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 7"
+  },
+  {
+    "name": "Sprite Extracted - (71)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (72)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (73)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (74)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (75)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (76)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (77)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (78)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (79)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (80)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 8"
+  },
+  {
+    "name": "Sprite Extracted - (81)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (82)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (83)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (84)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (85)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (86)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (87)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (88)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (89)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (90)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 9"
+  },
+  {
+    "name": "Sprite Extracted - (91)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (92)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (93)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (94)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (95)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (96)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (97)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (98)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (99)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
+  {
+    "name": "Sprite Extracted - (100)",
+    "category": ["Sprite Extraction"],
+    "region": "Sprite Region 10"
+  },
 
 
 
@@ -1112,7 +1619,7 @@
     "name": "Goal - VictoryCrowns",
     "victory": true,
     "category": [
-
+      "Victory - Goal"
     ],
     "requires": "{victoryCrown()}"
   },
@@ -1120,7 +1627,7 @@
     "name": "Goal - Eliminations",
     "victory": true,
     "category": [
-
+      "Victory - Goal"
     ],
     "requires": "{eliminationGoal()}"
   },
@@ -1128,8 +1635,16 @@
     "name": "Goal - Accolades/Victory Royale",
     "victory": true,
     "category": [
-
+      "Victory - Goal"
     ],
     "requires": "{accolade_goal()}"
+  },
+  {
+    "name": "Goal - All Sprites Extracted",
+    "victory": true,
+    "category": [
+      "Victory - Goal"
+    ],
+    "requires": "{spriteGoal()} and {Searchables()}"
   }
 ]

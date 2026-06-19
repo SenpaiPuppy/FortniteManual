@@ -30,6 +30,15 @@ class AccoladeGoal(Range): # pyright: ignore[reportGeneralTypeIssues]
     range_start = 10
     range_end = 80
     default = 40
+class SpritesNeeded(Range): # type: ignore
+    """The total amount of Sprite Locations available to the Player
+    This is meant for Goals and General Locations as they don't have a specific item locked being it.
+    Because of that things may be in logic immediately for something like as a Sphere 0 Location.
+    Feel free to assign all or later Locations to exclude_locations in the Section of the Yaml.
+    If sprite_toggle is True, 7 Sprites are required for Goal to be accessible, else just Searchable Lessons."""
+    range_start = 0
+    range_end = 100
+    default = 10
 #   -------------------- ( Lcoations )--------------------
 class RemoveAccolades(OptionList):
     """Determines what Accolades are removed to the Location Pool
@@ -210,6 +219,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["victory_crowns"] = VictoryCrowns
     options["elimination_goal"] = EliminationTokens
     options["accolade_precentage"] = AccoladeGoal
+    options["sprites_needed_goal"] = SpritesNeeded
 #-- Locations ----------------------------------------------
     options["remove_accolades"] = RemoveAccolades
     options["archipelago_locations"] = ArchipelagoLocations 
@@ -259,13 +269,13 @@ def after_options_defined(options: Type[PerGameCommonOptions]): # type: ignore
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]: # type: ignore
     
-    groups['Goal Options'] = [VictoryCrowns,EliminationTokens,AccoladeGoal]
+    groups['Goal Options'] = [VictoryCrowns,EliminationTokens,AccoladeGoal,SpriteToggle,SpritesNeeded]
 
     groups['Locations'] = [RemoveAccolades,ArchipelagoLocations,BossHunt,EliminationLocations] #RiftAnomaliesToggle
 
     groups['Rarity'] = [RarityEnabled,ProgressiveRarities,ProgressiveRarityCount]
 
-    groups['Items'] = [Resourcefulness,StartingPocketItem,VaultKeyCards,SpriteToggle,ConsumableToggle,UtilityToggle,SuperWeaponVarients]
+    groups['Items'] = [Resourcefulness,StartingPocketItem,VaultKeyCards,ConsumableToggle,UtilityToggle,SuperWeaponVarients]
 
     groups['Skills'] = [LessonSkills,ShoppingToggle,WeaponMastery,ProgressiveGamemode,MoveRando]
 

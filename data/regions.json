@@ -1,6 +1,43 @@
 {
-  "undefined": {
+  "Sprite Region Start": {
+    "connects_to": ["Sprite Region 2"],
+    "requires": "|@Sprites:1|",
+    "starting": true
+  },
+  "Sprite Region 2": {
+    "connects_to": ["Sprite Region 3"],
+    "requires": "|@Sprites:2|"
+  },
+  "Sprite Region 3": {
+    "connects_to": ["Sprite Region 4"],
+    "requires": "|@Sprites:3|"
+  },
+  "Sprite Region 4": {
+    "connects_to": ["Sprite Region 5"],
+    "requires": "|@Sprites:4|"
+  },
+  "Sprite Region 5": {
+    "connects_to": ["Sprite Region 6"],
+    "requires": "|@Sprites:5|"
+  },
+  "Sprite Region 6": {
+    "connects_to": ["Sprite Region 7"],
+    "requires": "|@Sprites:6|"
+  },
+  "Sprite Region 7": {
+    "connects_to": ["Sprite Region 8"],
+    "requires": "|@Sprites:7|"
+  },
+  "Sprite Region 8": {
+    "connects_to": ["Sprite Region 9"],
+    "requires": "|@Sprites:8|"
+  },
+  "Sprite Region 9": {
+    "connects_to": ["Sprite Region 10"],
+    "requires": "|@Sprites:9|"
+  },
+  "Sprite Region 10": {
     "connects_to": [],
-    "requires": ""
+    "requires": "|@Sprites:10|"
   }
 }

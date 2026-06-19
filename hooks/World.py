@@ -31,10 +31,14 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     #Goals ------------------------------------------------
     Goal = world.options.goal.value
     EliminationTokens = world.options.elimination_goal.value
+    PossibleSpriteLocations = world.options.sprites_needed_goal.value
     #Data -------------------------------------------------
+    Locations = world.get_locations()
     locationNamesToRemove: list[str] = [] # List of location names
     possible_count = [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,
     105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200]
+    possible_sprites = ["01","02","03","04","05","06","07","08","09",10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,
+                50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]
 
 # Remove undesired Catagories -----------------------------
     
@@ -50,7 +54,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             locationNamesToRemove.extend(Eliminations)
     else:
         for term in possible_count:
-            if term >= EliminationTokens:
+            if int(term) >= EliminationTokens:
                 Eliminations = [f"Victory Eliminations - {term + 5}",f"Eliminations - ({term})"]
                 #print(Eliminations)
                 locationNamesToRemove.extend(Eliminations)
@@ -64,11 +68,19 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     if RemoveEliminations < 200:
         for term in possible_count:
             #print(term)
-            if term >= RemoveEliminations:
-                Eliminations = [f"Eliminations - ({term + 5})"]
+            if term > RemoveEliminations:
+                Eliminations = [f"Eliminations - ({term})"]
                 locationNamesToRemove.extend(Eliminations)
                 #print(f"Removing: {Eliminations}")
 
+#-- Sprite Locations ----------------------------------
+
+    # Remove Extra Locations
+    for term in possible_sprites:
+        if int(term) > PossibleSpriteLocations:
+            SpriteLocations = [f"Sprite Extracted - ({term})"]
+            locationNamesToRemove.extend(SpriteLocations)
+    
 # Remove Locations ------------------------------------------
 
     for region in multiworld.regions:
@@ -145,7 +157,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     WeaponSMG = ["Flex SMG","Stinger SMG"]
     WeaponPS =  ["Ranger Pistol", "Lancehead Pistol"]
 
-    SpriteItems = [] # Seasonal???
+    SpriteItems = ["Fire Sprite", "Water Sprite", "Earth Sprite"] # Seasonal??? 
+    AllSpriteItems = []
     Sprites = world.options.sprite_toggle.value
 
     for item_check in list(item_pool): 
@@ -162,33 +175,41 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         if "Shopping" in item_categories: ShoppingSkills.append(f"{item_check.name}")
         if "Mastery" in item_categories: WeaponSkills.append(f"{item_check.name}")
         if "Movement" in item_categories: MovementItems.append(f"{item_check.name}")
-        if "Sprites" in item_categories: SpriteItems.append(f"{item_check.name}")
+        if "Sprites" in item_categories: AllSpriteItems.append(f"{item_check.name}")
     #print(f"Rarity Items: {RarityItems}\nMaterial Items: {MaterialItems}\nKeyCard Items: {KeyCardItems}\nUtility Items: {UtilityItems}\nConsumable Items: {ConsumableItems}\nFishing: {FishingItems}\nProgressive Fishing: {ProgressiveFishingItems}\nSuper Weapons: {SuperWeaponItems}\nSkills: {RemoveSkills}\nMasteries: {WeaponSkills}\nGamemode: {GamemodeItems}\nMovement: {MovementItems}")
     
-# ------------------------------------( Starting Items )----------------------------------- #
+# ------------------------------------( Starting Weapon )----------------------------------- #
 
-    if WeaponMastery == True:
-        StartingSkill = random.choice(WeaponSkills)
-        if StartingSkill == "Assault Rifle Mastery":
-            StartingWeapon = random.choice(WeaponAR)
+    StartingSkill = random.choice(WeaponSkills)
+    if StartingSkill == "Assault Rifle Mastery":
+        StartingWeapon = random.choice(WeaponAR)
+        if WeaponMastery == True: 
             pre_collect.append(StartingSkill)
-            pre_collect.append(StartingWeapon)
-        if StartingSkill == "Shotgun Mastery":
-            StartingWeapon = random.choice(WeaponSG)
+        pre_collect.append(StartingWeapon)
+
+    if StartingSkill == "Shotgun Mastery":
+        StartingWeapon = random.choice(WeaponSG)
+        if WeaponMastery == True: 
             pre_collect.append(StartingSkill)
-            pre_collect.append(StartingWeapon)
-        if StartingSkill == "SMG Mastery":
-            StartingWeapon = random.choice(WeaponSMG)
+        pre_collect.append(StartingWeapon)
+
+    if StartingSkill == "SMG Mastery":
+        StartingWeapon = random.choice(WeaponSMG)
+        if WeaponMastery == True: 
             pre_collect.append(StartingSkill)
-            pre_collect.append(StartingWeapon)
-        if StartingSkill == "Pistol Mastery":
-            StartingWeapon = random.choice(WeaponPS)
+        pre_collect.append(StartingWeapon)
+
+    if StartingSkill == "Pistol Mastery":
+        StartingWeapon = random.choice(WeaponPS)
+        if WeaponMastery == True: 
             pre_collect.append(StartingSkill)
-            pre_collect.append(StartingWeapon)
-        if StartingSkill == "Melee Mastery":
-            StartingWeapon =  random.choice(WeaponAR)
+        pre_collect.append(StartingWeapon)
+
+    if StartingSkill == "Melee Mastery":
+        StartingWeapon =  random.choice(WeaponAR)
+        if WeaponMastery == True: 
             pre_collect.append("Assault Rifle Mastery")
-            pre_collect.append(StartingWeapon)
+        pre_collect.append(StartingWeapon)
 
 # ----------------------------------------( Rarity )--------------------------------------- #
 
@@ -252,7 +273,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         for term in SuperWeaponItems: itemNamesToRemove.append(term)
 
     if Sprites == False:
-        for term in SpriteItems: itemNamesToRemove.append(term)
+        for term in AllSpriteItems: itemNamesToRemove.append(term)
     if Sprites == True:
         RandomSprite = random.choice(SpriteItems)
         pre_collect.append(RandomSprite)
@@ -280,13 +301,22 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 # ----------------------------------( Item Remove/Collect )-------------------------------- #
     #print(f"Removing Items: {itemNamesToRemove}")
     for itemName in itemNamesToRemove:
+        valids = [i for i in item_pool if i.name == itemName]
+        if not valids:
+            # either :
+            raise ValueError(f"could not find item {itemName} to add to remove from the item_pool")
         item = next(i for i in item_pool if i.name == itemName)
         remove_specific_item(item_pool, item)
     
     #print(f"Precollect: {pre_collect}")
     #multiworld.random.shuffle(item_pool) 
-    for count in pre_collect:
-        item = next(i for i in item_pool if i.name in pre_collect)
+    for itemName in pre_collect:
+        #print(itemName)
+        valids = [i for i in item_pool if i.name == itemName]
+        if not valids:
+            # either :
+            raise ValueError(f"could not find item {itemName} to add to precollected")
+        item = next(i for i in item_pool if i.name == itemName)
         multiworld.push_precollected(item)
         item_pool.remove(item)
 
@@ -314,9 +344,17 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         CrownList.extend(VictoryCrown*50)
         CrownList.extend(ElimTokens*20)
 
+    if Goal == 3: #Sprites
+        CrownList.extend(VictoryCrown*50)
+        CrownList.extend(ElimTokens*20)
+
     for itemName in CrownList:
-            item = next(i for i in item_pool if i.name == itemName)
-            remove_specific_item(item_pool, item)
+        valids = [i for i in item_pool if i.name == itemName]
+        if not valids:
+            # either :
+            raise ValueError(f"Crown List: could not find item {itemName} to add to remove from the item_pool")    
+        item = next(i for i in item_pool if i.name == itemName)
+        remove_specific_item(item_pool, item)
 
     return item_pool
 
