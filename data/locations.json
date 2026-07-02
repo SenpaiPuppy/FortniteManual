@@ -511,63 +511,72 @@
   {
     "name": "Delicious Catch",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{Fishing()}"
   },
   {
     "name": "Adventure Buddies",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{CharacterRecruit()}"
   },
   {
     "name": "The Gift of Life",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{DuosGamemode()}"
   },
   {
     "name": "Patch Up, Pronto!",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{DuosGamemode()}"
   },
   {
     "name": "Shopping Spree",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{AverageLooper()}"
   },
   {
     "name": "Loot Stockpiler",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "High Roller",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{AverageLooper()}"
   },
   {
     "name": "Feed Finder",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{FruitsAndVeggies()}"
   },
   {
     "name": "Resourcefulness",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": "{Resourcefulness()}"
   },
@@ -577,14 +586,16 @@
   {
     "name": "Zip Zonk Bang - Shooting Range Round 1",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": ""
   },
   {
     "name": "Zip Zonk Bang - Shooting Range Round 2",
     "category": [
-      "Archipelago Adventure"
+      "Archipelago Adventure",
+      "Archipelago"
     ],
     "requires": ""
   },
@@ -592,84 +603,96 @@
   {
     "name": "Search - Chest",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Rare Chest",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Ammo Box",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Rare Ammo Box",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Cash Register",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Safe",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Produce Box",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Fishing Barrel",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Sprite Chest",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Open - Particle Accelerator Vault",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{UnstableElement()}"
   },
   {
     "name": "Open - Vault",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{NormalVaultKey()}"
   },
   {
     "name": "Open - Epic Vault",
     "category": [
-      "Archipelago Searchables"
+      "Archipelago Searchables",
+      "Archipelago"
     ],
     "requires": "{EpicVaultKey()}"
   },
@@ -678,21 +701,24 @@
   {
     "name": "Start Quest: Cluster's Securing Sprites",
     "category": [
-      "Archipelago Quests"
+      "Archipelago Quests",
+      "Archipelago"
     ],
     "requires": "{MasterExtractor()}"
   },
   {
     "name": "Start Quest: Dylan's Merc Munitions",
     "category": [
-      "Archipelago Quests"
+      "Archipelago Quests",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Start Quest: Hope's Vision Decoding",
     "category": [
-      "Archipelago Quests"
+      "Archipelago Quests",
+      "Archipelago"
     ],
     "requires": "{Searchables()}"
   },
@@ -708,28 +734,32 @@
   {
     "name": "Defeat Boss - Wolfe",
     "category": [
-      "Archipelago Quests"
+      "Archipelago Quests",
+      "Boss"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },
   {
     "name": "Defeat Boss - The Voidblade",
     "category": [
-      "Archipelago Quests"
+      "Archipelago Quests",
+      "Boss"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },
   {
     "name": "Defeat Boss - Skeletor",
     "category": [
-      "Archipelago Quests"
+      "Archipelago Quests",
+      "Boss"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },
   {
     "name": "Rescue Boss - John Wick's Dog",
     "category": [
-      "Archipelago Quests"
+      "Archipelago Quests",
+      "Boss"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },

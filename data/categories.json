@@ -60,6 +60,12 @@
     },
     "UnknownRarity Sprites": {
         "hidden": true
+    },
+    "Archipelago": {
+        "hidden": true
+    },
+    "Boss": {
+        "hidden": true
     }
 
 }
