@@ -109,9 +109,14 @@ def FruitsAndVeggies(world: World, multiworld: MultiWorld, player: int, state: C
 
 def SelfReviveDevice(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.consumable_toggle.value
-    if Toggle == True:
-        return "|Self-Revive Device|"
-    return True
+    Sprites = world.options.sprite_toggle.value
+
+    if Toggle == False and Sprites == True:
+        return "|Earth Sprite| or |Dream Sprite|"
+    if Toggle == True and Sprites == True:
+        return "(|Earth Sprite| or |Dream Sprite|) and |Self-Revive Device|"
+    if Toggle == False and Sprites == False:
+        return True
 
 def DemolitionDomination(world: World, multiworld: MultiWorld, player: int, state: CollectionState):
     Toggle = world.options.weapon_mastery.value
@@ -381,15 +386,15 @@ def accolade_goal(world: World, multiworld: MultiWorld, player: int, state: Coll
     for location_check in list(Locations):
         item_table_element = next(i_t for i_t in location_table if i_t['name'] == location_check.name)
         location_categories = item_table_element.get("category", []) # gets the Category of Items!
-        if "First in Match" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Weapons" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Combat" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Victory Royale" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Survival" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Resources" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Social" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Special" in location_categories: AccoladeLocations.append(f"{location_check.name}")
-        if "Seasonal" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - First in Match" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Weapons" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Combat" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Victory Royale" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Survival" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Resources" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Social" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Special" in location_categories: AccoladeLocations.append(f"{location_check.name}")
+        if "Accolade - Seasonal" in location_categories: AccoladeLocations.append(f"{location_check.name}")
     
     AccessibleLocations = len([location for location in Locations if
                     location.address is not None and
@@ -421,7 +426,7 @@ def eliminationGoal(world:World, player: int, state: CollectionState):
 
 def spriteGoal(world:World, player: int, state: CollectionState):
     SpritesToggle = world.options.sprite_toggle.value
-    SpriteCount = world.options.sprites_needed_goal.value
+    SpriteCount = world.options.sprite_locations.value
     if SpritesToggle == False:
         return True
     if SpritesToggle == True:
@@ -445,3 +450,83 @@ def spriteGoal(world:World, player: int, state: CollectionState):
             return "|@Sprites:10|"
         if SpriteCount <= 10:
             return True
+
+
+
+
+
+def WaterSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Water Sprite|"
+    else: return True
+def EarthSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Earth Sprite|"
+    else: return True
+def FireSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Fire Sprite|"
+    else: return True
+def DuckSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Duck Sprite|"
+    else: return True
+def GhostSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Ghost Sprite|"
+    else: return True
+def DemonSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Demon Sprite|"
+    else: return True
+def KingSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|King Sprite|"
+    else: return True
+def DreamSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Dream Sprite|"
+    else: return True
+def PunkSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Punk Sprite|"
+    else: return True
+def ZeroPointSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Zero Point Sprite|"
+    else: return True
+def StrikerSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Striker Sprite|"
+    else: return True
+def FishySprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Fishy Sprite|"
+    else: return True
+def AuraSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Aura Sprite|"
+    else: return True
+def BossSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Boss Sprite|"
+    else: return True
+def GrimReaperSprite(world:World, player: int, state: CollectionState):
+    Sprites = world.options.sprite_toggle.value
+    if Sprites == True:
+        return "|Grim Reaper Sprite|"
+    else: return True

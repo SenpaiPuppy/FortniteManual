@@ -1,1 +1,65 @@
-{}
+{
+    "Rare Sprites": {
+        "hidden": true
+    },
+    "Epic Sprites": {
+        "hidden": true
+    },
+    "Legendary Sprites": {
+        "hidden": true
+    },
+    "Mythic Sprites": {
+        "hidden": true
+    },
+
+    
+    "Water Sprites": {
+        "hidden": true
+    },
+    "Earth Sprites": {
+        "hidden": true
+    },
+    "Fire Sprites": {
+        "hidden": true
+    },
+    "Duck Sprites": {
+        "hidden": true
+    },
+    "Ghost Sprites": {
+        "hidden": true
+    },
+    "Demon Sprites": {
+        "hidden": true
+    },
+    "King Sprites": {
+        "hidden": true
+    },
+    "Dream Sprites": {
+        "hidden": true
+    },
+    "Punk Sprites": {
+        "hidden": true
+    },
+    "Zero Point Sprites": {
+        "hidden": true
+    },
+    "Striker Sprites": {
+        "hidden": true
+    },
+    "Fishy Sprites": {
+        "hidden": true
+    },
+    "Aura Sprites": {
+        "hidden": true
+    },
+    "Boss Sprites": {
+        "hidden": true
+    },
+    "Grim Reaper Sprites": {
+        "hidden": true
+    },
+    "UnknownRarity Sprites": {
+        "hidden": true
+    }
+
+}

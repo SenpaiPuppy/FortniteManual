@@ -31,15 +31,13 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     #Goals ------------------------------------------------
     Goal = world.options.goal.value
     EliminationTokens = world.options.elimination_goal.value
-    PossibleSpriteLocations = world.options.sprites_needed_goal.value
+    PossibleSpriteLocations = world.options.sprite_locations.value
     #Data -------------------------------------------------
     Locations = world.get_locations()
     locationNamesToRemove: list[str] = [] # List of location names
     possible_count = [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,
     105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200]
-    possible_sprites = ["01","02","03","04","05","06","07","08","09",10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,
-                50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]
-
+    
 # Remove undesired Catagories -----------------------------
     
     locationNamesToRemove += RemoveAccolades
@@ -75,11 +73,49 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 #-- Sprite Locations ----------------------------------
 
+    SpriteSanity = world.options.sprite_sanity_toggle.value
+    SpriteTypes = world.options.sprite_type_list.value
+    SpriteVarients = world.options.sprite_vaients_list.value
+
+    SpriteTypeSearch = ["Water","Earth","Fire","Duck","Ghost","Demon","King","Dream","Punk","Zero Point","Striker","Fishy","Aura","Boss","Grim Reaper"]
+    SpriteVarientSearch = []
+    possible_sprites = ["01","02","03","04","05","06","07","08","09",10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,
+                50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]
+
     # Remove Extra Locations
     for term in possible_sprites:
         if int(term) > PossibleSpriteLocations:
             SpriteLocations = [f"Sprite Extracted - ({term})"]
             locationNamesToRemove.extend(SpriteLocations)
+
+    if SpriteSanity == False: 
+        print("Sprite Sanity False! Printing :3")
+        locationNamesToRemove += world.location_name_groups["Normal Sprites"]
+        locationNamesToRemove += world.location_name_groups["Gold Sprites"]
+        locationNamesToRemove += world.location_name_groups["Gummy Sprites"]
+        locationNamesToRemove += world.location_name_groups["Galaxy Sprites"]
+    for term in SpriteTypeSearch:
+        if term not in SpriteTypes:
+            locationNamesToRemove += world.location_name_groups[f"{term} Sprites"]
+            print(f"1Removing {term} Sprites!")
+            print(f"1Locations to Remove:\n{world.location_name_groups[f"{term} Sprites"]}")
+    for term in SpriteVarientSearch:
+        if term not in SpriteVarients:
+            locationNamesToRemove += world.location_name_groups[f"{term} Sprites"]
+            print(f"2Removing {term} Sprites!")
+            print(f"2Locations to Remove:\n{world.location_name_groups[f"{term} Sprites"]}")
+
+
+
+
+
+
+
+
+
+
+
+
     
 # Remove Locations ------------------------------------------
 
@@ -273,7 +309,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         for term in SuperWeaponItems: itemNamesToRemove.append(term)
 
     if Sprites == False:
-        for term in AllSpriteItems: itemNamesToRemove.append(term)
+        for term in AllSpriteItems: pre_collect.append(term)
     if Sprites == True:
         RandomSprite = random.choice(SpriteItems)
         pre_collect.append(RandomSprite)

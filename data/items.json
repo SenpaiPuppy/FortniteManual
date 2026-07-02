@@ -115,7 +115,8 @@
 
 
   {
-    "count": 1,
+    "count": 0,
+    "_comment": "Disabled 6/25",
     "name": "Shield Breaker EMP",
     "category": [
       "Explosive"
@@ -231,6 +232,22 @@
     ],
     "progression": true
   },
+  {
+    "count": 1,
+    "name": "Flare Gun",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Big Bush Bomb",
+    "category": [
+      "Utility"
+    ],
+    "progression": true
+  },
 
 
 
@@ -304,6 +321,38 @@
   {
     "count": 1,
     "name": "Business Turret",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Exotic Slapberry Fizz",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Shock Rock",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Quack Snacks",
+    "category": [
+      "Consumable"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Lil'Whip's Special Serve",
     "category": [
       "Consumable"
     ],
@@ -445,6 +494,22 @@
   {
     "count": 1,
     "name": "Limitless Seven Sliders",
+    "category": [
+      "SuperWeapon"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hop Rock Dualies",
+    "category": [
+      "SuperWeapon"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Lawless Stink Rifle",
     "category": [
       "SuperWeapon"
     ],
@@ -787,6 +852,36 @@
     "category": ["Sprites"],
     "progression": true
   },
+  {
+    "name": "The Burnt Peanut",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Striker Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Fishy Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Aura Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Boss Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
+  {
+    "name": "Grim Reaper Sprite",
+    "category": ["Sprites"],
+    "progression": true
+  },
 
 
 
@@ -807,5 +902,10 @@
       "Goal Items"
     ],
     "progression": true
+  },
+
+
+  {
+    "name": "Mythic Goldfish"
   }
 ]

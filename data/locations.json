@@ -2,28 +2,28 @@
   {
     "name": "Early Bird",
     "category": [
-      "First in Match"
+      "Accolade - First in Match"
     ],
     "requires": "{EarlyBird()}"
   },
   {
     "name": "First Strike",
     "category": [
-      "First in Match"
+      "Accolade - First in Match"
     ],
     "requires": ""
   },
   {
     "name": "Quick Exit",
     "category": [
-      "First in Match"
+      "Accolade - First in Match"
     ],
     "requires": ""
   },
   {
     "name": "First Landing",
     "category": [
-      "First in Match"
+      "Accolade - First in Match"
     ],
     "requires": ""
   },
@@ -34,56 +34,56 @@
   {
     "name": "Rapid Rampage",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{RapidRampage()} and {RarityRare()}"
   },
   {
     "name": "Shell Shocked",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{ShellShocked()} and {RarityRare()}"
   },
   {
     "name": "Subtle Savagery",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{SubtleSavagery()} and {RarityRare()}"
   },
   {
     "name": "Steady Sharpshooter",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{SteadySharpshooter()} and {RarityEpic()}"
   },
   {
     "name": "Pinpoint Precision",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{PinpointPrecision()} and {RarityRare()}"
   },
   {
     "name": "Jack of All Trades",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{RapidRampage()} and {ShellShocked()} and {SubtleSavagery()} and {PinpointPrecision()} and {RarityRare()}"
   },
   {
     "name": "One Man's Trash",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{OneMansTrash()}"
   },
   {
     "name": "One Man's Treasure",
     "category": [
-      "Weapons"
+      "Accolade - Weapons"
     ],
     "requires": "{WeaponUpgrade()} and {LegendaryRarity()}"
   },
@@ -95,77 +95,77 @@
   {
     "name": "Single Digit",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{UncommonRarity()}"
   },
   {
     "name": "Double Digits",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{RarityRare()}"
   },
   {
     "name": "Elimination Collector",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{RarityEpic()}"
   },
   {
     "name": "Elimination Hoarder",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{LegendaryRarity()}"
   },
   {
     "name": "Elimination Escapade",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{LegendaryRarity()}"
   },
   {
     "name": "Double Elimination",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{UncommonRarity()} and {DuosGamemode()}"
   },
   {
     "name": "Multi Elimination",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{RarityRare()} and {TriosGamemode()}"
   },
   {
     "name": "Mega Elimination",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{RarityRare()} and {SquadsGamemode()}"
   },
   {
     "name": "Epic Elimination",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{RarityEpic()} and {SquadsGamemode()}"
   },
   {
     "name": "Impossible Shot",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{ImpossibleShot()} and {RarityRare()}"
   },
   {
     "name": "Off the Dome",
     "category": [
-      "Combat"
+      "Accolade - Combat"
     ],
     "requires": "{OffTheDome()}"
   },
@@ -177,91 +177,91 @@
   {
     "name": "Against the World",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{SquadsGamemode()} and {LegendaryRarity()} and {AgainstTheWorld()}"
   },
   {
     "name": "Three to One Odds",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{TriosGamemode()} and {RarityEpic()} and {AgainstTheWorld()}"
   },
   {
     "name": "Two to One Odds",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{DuosGamemode()} and {RarityRare()} and {AgainstTheWorld()}"
   },
   {
     "name": "Pacifist",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{TriosGamemode()}"
   },
   {
     "name": "True Pacifist",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{SquadsGamemode()}"
   },
   {
     "name": "I'm Fine, Really",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{ImFineReally()} and {TriosGamemode()}"
   },
   {
     "name": "Who Needs 'Em?",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{WhoNeedsEm()} and {TriosGamemode()}"
   },
   {
     "name": "There's No Time",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{TriosGamemode()}"
   },
   {
     "name": "This Isn't Zero Build?",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{DuosGamemode()}"
   },
   {
     "name": "Maximum Overshields",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{MaximumOvershields()} and {TriosGamemode()}"
   },
   {
     "name": "Knife to a Gun Fight",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{DemolitionDomination()} and {DuosGamemode()}"
   },
   {
     "name": "Royal Preservation",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{UncommonRarity()} and {AgainstTheWorld()} and {DuosGamemode()}"
   },
   {
     "name": "All Hail the Crown",
     "category": [
-      "Victory Royale"
+      "Accolade - Victory Royale"
     ],
     "requires": "{UncommonRarity()} and {AgainstTheWorld()} and {DuosGamemode()}"
   },
@@ -273,49 +273,49 @@
   {
     "name": "Survivor I (50 Players Remaining)",
     "category": [
-      "Survival"
+      "Accolade - Survival"
     ],
     "requires": ""
   },
   {
     "name": "Survivor II (25 Players Remaining)",
     "category": [
-      "Survival"
+      "Accolade - Survival"
     ],
     "requires": ""
   },
   {
     "name": "Survivor III (10 Players Remaining)",
     "category": [
-      "Survival"
+      "Accolade - Survival"
     ],
     "requires": ""
   },
   {
     "name": "Survivor IV (3 Players Remaining)",
     "category": [
-      "Survival"
+      "Accolade - Survival"
     ],
     "requires": ""
   },
   {
     "name": "Fruits and Veggies",
     "category": [
-      "Survival"
+      "Accolade - Survival"
     ],
     "requires": "{FruitsAndVeggies()}"
   },
   {
     "name": "Relentless",
     "category": [
-      "Survival"
+      "Accolade - Survival"
     ],
     "requires": "{DuosGamemode()}"
   },
   {
     "name": "Celebrated Crawler",
     "category": [
-      "Survival"
+      "Accolade - Survival"
     ],
     "requires": "{DuosGamemode()} and {SelfReviveDevice()}"
   },
@@ -327,14 +327,14 @@
   {
     "name": "Demolition Domination",
     "category": [
-      "Resources"
+      "Accolade - Resources"
     ],
     "requires": "{DemolitionDomination()}"
   },
   {
     "name": "Bustling Builder",
     "category": [
-      "Resources"
+      "Accolade - Resources"
     ],
     "requires": "{BustlingBuilder()}"
   },
@@ -346,49 +346,49 @@
   {
     "name": "Reboot Revenge",
     "category": [
-      "Social"
+      "Accolade - Social"
     ],
     "requires": "{OneMansTrash()} and {RarityRare()}"
   },
   {
     "name": "Stay Down",
     "category": [
-      "Social"
+      "Accolade - Social"
     ],
     "requires": "{OneMansTrash()} and {RarityRare()}"
   },
   {
     "name": "Carrying",
     "category": [
-      "Social"
+      "Accolade - Social"
     ],
     "requires": "{OneMansTrash()} and {RarityRare()}"
   },
   {
     "name": "Support Class",
     "category": [
-      "Social"
+      "Accolade - Social"
     ],
     "requires": "{DuosGamemode()}"
   },
   {
     "name": "Reboot Van Rebooting...",
     "category": [
-      "Social"
+      "Accolade - Social"
     ],
     "requires": "{DuosGamemode()}"
   },
   {
     "name": "Hired Gun",
     "category": [
-      "Social"
+      "Accolade - Social"
     ],
     "requires": "{CharacterRecruit()}"
   },
   {
     "name": "Helping Hand",
     "category": [
-      "Social"
+      "Accolade - Social"
     ],
     "requires": "{CharacterRecruit()}"
   },
@@ -398,28 +398,28 @@
   {
     "name": "Thank You Kindly",
     "category": [
-      "Special"
+      "Accolade - Special"
     ],
     "requires": ""
   },
   {
     "name": "Better Late Than Never",
     "category": [
-      "Special"
+      "Accolade - Special"
     ],
     "requires": ""
   },
   {
     "name": "Only the Best",
     "category": [
-      "Special"
+      "Accolade - Special"
     ],
     "requires": "{LegendaryRarity()} and {WeaponUpgrade()}"
   },
   {
     "name": "Road Trip",
     "category": [
-      "Special"
+      "Accolade - Special"
     ],
     "requires": "{RoadTrip()}"
   },
@@ -431,77 +431,77 @@
   {
     "name": "Edison's Medicine",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{SelfReviveDevice()}"
   },
   {
     "name": "Meat Wagon Marathon",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{RoadTrip()}"
   },
   {
     "name": "Totally Real Science!",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": ""
   },
   {
     "name": "Master Extractor",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{MasterExtractor()}"
   },
   {
     "name": "Duckstep",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{DanceLessons()}"
   },
   {
     "name": "Safequacker",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{DuckVaultKey()}"
   },
   {
     "name": "Riverfowl Regatta",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": ""
   },
   {
     "name": "Average Looper",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{AverageLooper()}"
   },
   {
     "name": "Path of Least Resistance",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": ""
   },
   {
     "name": "Boot-y Blast",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{SevenSliders()}"
   },
   {
     "name": "Deconsecrated",
     "category": [
-      "Seasonal"
+      "Accolade - Seasonal"
     ],
     "requires": "{Deconsecrated()}"
   },
@@ -511,63 +511,63 @@
   {
     "name": "Delicious Catch",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": "{Fishing()}"
   },
   {
     "name": "Adventure Buddies",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": "{CharacterRecruit()}"
   },
   {
     "name": "The Gift of Life",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
-    "requires": ""
+    "requires": "{DuosGamemode()}"
   },
   {
     "name": "Patch Up, Pronto!",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
-    "requires": ""
+    "requires": "{DuosGamemode()}"
   },
   {
     "name": "Shopping Spree",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": "{AverageLooper()}"
   },
   {
     "name": "Loot Stockpiler",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "High Roller",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": "{AverageLooper()}"
   },
   {
     "name": "Feed Finder",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": "{FruitsAndVeggies()}"
   },
   {
     "name": "Resourcefulness",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": "{Resourcefulness()}"
   },
@@ -577,14 +577,14 @@
   {
     "name": "Zip Zonk Bang - Shooting Range Round 1",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": ""
   },
   {
     "name": "Zip Zonk Bang - Shooting Range Round 2",
     "category": [
-      "Archipelago"
+      "Archipelago Adventure"
     ],
     "requires": ""
   },
@@ -592,107 +592,107 @@
   {
     "name": "Search - Chest",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Rare Chest",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Ammo Box",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Rare Ammo Box",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Cash Register",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Safe",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Produce Box",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Fishing Barrel",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Search - Sprite Chest",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{Searchables()}"
   },
   {
     "name": "Open - Particle Accelerator Vault",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{UnstableElement()}"
   },
   {
     "name": "Open - Vault",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{NormalVaultKey()}"
   },
   {
     "name": "Open - Epic Vault",
     "category": [
-      "Archipelago"
+      "Archipelago Searchables"
     ],
     "requires": "{EpicVaultKey()}"
   },
 
   
   {
-    "name": "Cluster's Securing Sprites: Start Quest",
+    "name": "Start Quest: Cluster's Securing Sprites",
     "category": [
-      "Archipelago"
+      "Archipelago Quests"
     ],
     "requires": "{MasterExtractor()}"
   },
   {
-    "name": "Dylan's Merc Munitions: Start Quest",
+    "name": "Start Quest: Dylan's Merc Munitions",
     "category": [
-      "Archipelago"
+      "Archipelago Quests"
     ],
     "requires": "{Searchables()}"
   },
   {
-    "name": "Hope's Vision Decoding: Start Quest",
+    "name": "Start Quest: Hope's Vision Decoding",
     "category": [
-      "Archipelago"
+      "Archipelago Quests"
     ],
     "requires": "{Searchables()}"
   },
@@ -708,28 +708,28 @@
   {
     "name": "Defeat Boss - Wolfe",
     "category": [
-      "Boss"
+      "Archipelago Quests"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },
   {
     "name": "Defeat Boss - The Voidblade",
     "category": [
-      "Boss"
+      "Archipelago Quests"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },
   {
     "name": "Defeat Boss - Skeletor",
     "category": [
-      "Boss"
+      "Archipelago Quests"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },
   {
     "name": "Rescue Boss - John Wick's Dog",
     "category": [
-      "Boss"
+      "Archipelago Quests"
     ],
     "requires": "{DuosGamemode()} and {UncommonRarity()}"
   },
@@ -737,7 +737,560 @@
 
 
 
+  {
+    "name": "Sprite Collector - Water Sprite",
+    "category": [
+      "Rare Sprites",
+      "Normal Sprites",
+      "Water Sprites"
+    ],
+    "requires": "{WaterSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Water Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gold Sprites",
+      "Water Sprites"
+    ],
+    "requires": "{WaterSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Water Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gummy Sprites",
+      "Water Sprites"
+    ],
+    "requires": "{WaterSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Water Sprite",
+    "category": [
+      "Rare Sprites",
+      "Galaxy Sprites",
+      "Water Sprites"
+    ],
+    "requires": "{WaterSprite()}"
+  },
 
+  {
+    "name": "Sprite Collector - Earth Sprite",
+    "category": [
+      "Rare Sprites",
+      "Normal Sprites",
+      "Earth Sprites"
+    ],
+    "requires": "{EarthSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Earth Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gold Sprites",
+      "Earth Sprites"
+    ],
+    "requires": "{EarthSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Earth Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gummy Sprites",
+      "Earth Sprites"
+    ],
+    "requires": "{EarthSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Earth Sprite",
+    "category": [
+      "Rare Sprites",
+      "Galaxy Sprites",
+      "Earth Sprites"
+    ],
+    "requires": "{EarthSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Fire Sprite",
+    "category": [
+      "Rare Sprites",
+      "Normal Sprites",
+      "Fire Sprites"
+    ],
+    "requires": "{FireSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Fire Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gold Sprites",
+      "Fire Sprites"
+    ],
+    "requires": "{FireSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Fire Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gummy Sprites",
+      "Fire Sprites"
+    ],
+    "requires": "{FireSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Fire Sprite",
+    "category": [
+      "Rare Sprites",
+      "Galaxy Sprites",
+      "Fire Sprites"
+    ],
+    "requires": "{FireSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Duck Sprite",
+    "category": [
+      "Epic Sprites",
+      "Normal Sprites",
+      "Duck Sprites"
+    ],
+    "requires": "{DuckSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Duck Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gold Sprites",
+      "Duck Sprites"
+    ],
+    "requires": "{DuckSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Duck Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gummy Sprites",
+      "Duck Sprites"
+    ],
+    "requires": "{DuckSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Duck Sprite",
+    "category": [
+      "Epic Sprites",
+      "Galaxy Sprites",
+      "Duck Sprites"
+    ],
+    "requires": "{DuckSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Ghost Sprite",
+    "category": [
+      "Epic Sprites",
+      "Normal Sprites",
+      "Ghost Sprites"
+    ],
+    "requires": "{GhostSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Ghost Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gold Sprites",
+      "Ghost Sprites"
+    ],
+    "requires": "{GhostSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Ghost Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gummy Sprites",
+      "Ghost Sprites"
+    ],
+    "requires": "{GhostSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Ghost Sprite",
+    "category": [
+      "Epic Sprites",
+      "Galaxy Sprites",
+      "Ghost Sprites"
+    ],
+    "requires": "{GhostSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Dream Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Normal Sprites",
+      "Dream Sprites"
+    ],
+    "requires": "{DreamSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Dream Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Gold Sprites",
+      "Dream Sprites"
+    ],
+    "requires": "{DreamSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Dream Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Gummy Sprites",
+      "Dream Sprites"
+    ],
+    "requires": "{DreamSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Dream Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Galaxy Sprites",
+      "Dream Sprites"
+    ],
+    "requires": "{DreamSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Punk Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Normal Sprites",
+      "Punk Sprites"
+    ],
+    "requires": "{PunkSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Punk Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Gold Sprites",
+      "Punk Sprites"
+    ],
+    "requires": "{PunkSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Punk Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Gummy Sprites",
+      "Punk Sprites"
+    ],
+    "requires": "{PunkSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Punk Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Galaxy Sprites",
+      "Punk Sprites"
+    ],
+    "requires": "{PunkSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - King Sprite",
+    "category": [
+      "Epic Sprites",
+      "Normal Sprites",
+      "King Sprites"
+    ],
+    "requires": "{KingSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold King Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gold Sprites",
+      "King Sprites"
+    ],
+    "requires": "{KingSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy King Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gummy Sprites",
+      "King Sprites"
+    ],
+    "requires": "{KingSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy King Sprite",
+    "category": [
+      "Epic Sprites",
+      "Galaxy Sprites",
+      "King Sprites"
+    ],
+    "requires": "{KingSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Zero Point Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Normal Sprites",
+      "Zero Point Sprites"
+    ],
+    "requires": "{ZeroPointSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Zero Point Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Gold Sprites",
+      "Zero Point Sprites"
+    ],
+    "requires": "{ZeroPointSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Zero Point Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Gummy Sprites",
+      "Zero Point Sprites"
+    ],
+    "requires": "{ZeroPointSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Zero Point Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Galaxy Sprites",
+      "Zero Point Sprites"
+    ],
+    "requires": "{ZeroPointSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Demon Sprite",
+    "category": [
+      "Epic Sprites",
+      "Normal Sprites",
+      "Demon Sprites"
+    ],
+    "requires": "{DemonSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Demon Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gold Sprites",
+      "Demon Sprites"
+    ],
+    "requires": "{DemonSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Demon Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gummy Sprites",
+      "Demon Sprites"
+    ],
+    "requires": "{DemonSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Demon Sprite",
+    "category": [
+      "Epic Sprites",
+      "Galaxy Sprites",
+      "Demon Sprites"
+    ],
+    "requires": "{DemonSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Striker Sprite",
+    "category": [
+      "Epic Sprites",
+      "Normal Sprites",
+      "Striker Sprites"
+    ],
+    "requires": "{StrikerSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Striker Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gold Sprites",
+      "Striker Sprites"
+    ],
+    "requires": "{StrikerSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Striker Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gummy Sprites",
+      "Striker Sprites"
+    ],
+    "requires": "{StrikerSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Striker Sprite",
+    "category": [
+      "Epic Sprites",
+      "Galaxy Sprites",
+      "Striker Sprites"
+    ],
+    "requires": "{StrikerSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Fishy Sprite",
+    "category": [
+      "Rare Sprites",
+      "Normal Sprites",
+      "Fishy Sprites"
+    ],
+    "requires": "{FishySprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Fishy Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gold Sprites",
+      "Fishy Sprites"
+    ],
+    "requires": "{FishySprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Fishy Sprite",
+    "category": [
+      "Rare Sprites",
+      "Gummy Sprites",
+      "Fishy Sprites"
+    ],
+    "requires": "{FishySprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Fishy Sprite",
+    "category": [
+      "Rare Sprites",
+      "Galaxy Sprites",
+      "Fishy Sprites"
+    ],
+    "requires": "{FishySprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Aura Sprite",
+    "category": [
+      "Epic Sprites",
+      "Normal Sprites",
+      "Aura Sprites"
+    ],
+    "requires": "{AuraSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Aura Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gold Sprites",
+      "Aura Sprites"
+    ],
+    "requires": "{AuraSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Aura Sprite",
+    "category": [
+      "Epic Sprites",
+      "Gummy Sprites",
+      "Aura Sprites"
+    ],
+    "requires": "{AuraSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Aura Sprite",
+    "category": [
+      "Epic Sprites",
+      "Galaxy Sprites",
+      "Aura Sprites"
+    ],
+    "requires": "{AuraSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Boss Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Normal Sprites",
+      "Boss Sprites"
+    ],
+    "requires": "{BossSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Boss Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Gold Sprites",
+      "Boss Sprites"
+    ],
+    "requires": "{BossSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Boss Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Gummy Sprites",
+      "Boss Sprites"
+    ],
+    "requires": "{BossSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Boss Sprite",
+    "category": [
+      "Legendary Sprites",
+      "Galaxy Sprites",
+      "Boss Sprites"
+    ],
+    "requires": "{BossSprite()}"
+  },
+
+  {
+    "name": "Sprite Collector - Grim Reaper Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Normal Sprites",
+      "Grim Reaper Sprites"
+    ],
+    "requires": "{GrimReaperSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gold Grim Reaper Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Gold Sprites",
+      "Grim Reaper Sprites"
+    ],
+    "requires": "{GrimReaperSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Gummy Grim Reaper Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Gummy Sprites",
+      "Grim Reaper Sprites"
+    ],
+    "requires": "{GrimReaperSprite()}"
+  },
+  {
+    "name": "Sprite Collector - Galaxy Grim Reaper Sprite",
+    "category": [
+      "Mythic Sprites",
+      "Galaxy Sprites",
+      "Grim Reaper Sprites"
+    ],
+    "requires": "{GrimReaperSprite()}"
+  },
 
 
 

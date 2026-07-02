@@ -30,16 +30,9 @@ class AccoladeGoal(Range): # pyright: ignore[reportGeneralTypeIssues]
     range_start = 10
     range_end = 80
     default = 40
-class SpritesNeeded(Range): # type: ignore
-    """The total amount of Sprite Locations available to the Player
-    This is meant for both Goals and General Locations as they don't have a specific item locked being it.
-    If sprite_toggle is True,
-    (Region 2 [Locations 11-20] Needs 2 Sprites and Searchables) -> (Region 3 [Locations 21-30] Needs 3 Sprites and Searchables)"""
-    range_start = 0
-    range_end = 100
-    default = 10
+
 #   -------------------- ( Lcoations )--------------------
-class RemoveAccolades(OptionList):
+class RemoveAccolades(OptionList): #type:ignore
     """Determines what Accolades are removed to the Location Pool
     This is to help pad out Hard Accolades (Three to One, Elimination Escapade)
     or ones that aren't possible (Super Swooper) but Exist in the Fortnite Collection Book.
@@ -130,12 +123,6 @@ class UtilityToggle(Toggle): # type: ignore
     Smoke Cloud, Seven Sliders, Pulse Scanner, Rift-To-Go, Limitless Seven Sliders"""
     #display_name = "Utility Toggle"
     default = True
-class SpriteToggle(Toggle): # type: ignore 
-    """Should Sprite items be added to the pool?
-    Water Spite, Earth Sprite, Fire Sprite, Duck Sprite, Ghost Sprite, 
-    Demon Sprite, King Sprite, Dream Sprite, Punk Sprite and Zero Point Sprite"""
-    #display_name = "Utility Toggle"
-    default = True
 class ProgressiveFishing(Range): # type: ignore
     """Should Harpoon Guns and Fishing Rods be Progressive, Seperate items or not Exist??
     1: Fishing Rod -> Pro Fishing Rod, Harpoon Gun -> Enhanced Harpoon Gun
@@ -155,7 +142,7 @@ class SuperWeaponVarients(Toggle): # type: ignore
     #display_name = "Upgraded Weapons"
     default = False
 #   -------------------- ( Skills )--------------------
-class LessonSkills(OptionList):
+class LessonSkills(OptionList): #type:ignore
     """A set of actions required to do certain things. The list below are for possible items in the pool, remove if not desired.
     Dance Lessons:      The Ability to Emote or Shoulder Ride/Carry
     Driving Lessons:    The Ability to Drive a Motorized Vehicle
@@ -195,7 +182,33 @@ class MoveRando(Toggle): # type: ignore #done
     """Would you like to restrict player Movement? (No Logic, WIP)
     Jump, Sprint, Ledge Jump, Wall Scramble, Mantle, Crouch, Sliding, Swiming and Hurdling"""
     default = False
-    
+
+#   ------------------- (Seasonal) ------------------------
+
+class SpriteToggle(Toggle): # type: ignore 
+    """Should Sprite items be added to the pool?
+    Water Spite, Earth Sprite, Fire Sprite, Duck Sprite, Ghost Sprite, Demon Sprite, King Sprite, Dream Sprite, 
+    Punk Sprite, Zero Point Sprite, Striker Sprite, Fishy Sprite, Aura Sprite, Boss Sprite and Grim Reaper Sprite"""
+    #display_name = "Utility Toggle"
+    default = True
+class SpritesNeeded(Range): # type: ignore
+    """The total amount of Sprite Locations available to the Player
+    This is meant for both Goals and General Locations as they don't have a specific item locked being it.
+    If sprite_toggle is True,
+    (Region 2 [Locations 11-20] Needs 2 Sprites and Searchables) -> (Region 3 [Locations 21-30] Needs 3 Sprites and Searchables)"""
+    range_start = 0
+    range_end = 100
+    default = 10
+class SpriteSanity(Toggle): #type: ignore
+    """Adds the act of collecting one of everry sprite type as a location, can be configured."""
+    default = False
+class SpriteTypes(OptionList): #type:ignore
+    """What sprites are added to the sprite sanity list (List available in sprite_toggle)"""
+    default = ["Water","Earth","Fire","Duck","Ghost","Demon","King","Dream","Punk","Zero Point","Striker","Fishy","Aura","Boss","Grim Reaper"]
+class SpritesVarients(OptionList): # type: ignore
+    """What sprites are added to the sprite sanity list (Gold, Gummy, Galaxy, etc...)"""
+    default = ["Normal", "Gold", "Gummy", "Galaxy"]
+
 #-- Unused --------------------------
 class StabilizeWeaponsToggle(Toggle): # type: ignore # Not the call, too much to keep track and guess # Item
     """Would you like to add all of the possible Weapons from the 'Stabilize the Anomaly' Rift Event as items?
@@ -218,7 +231,6 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["victory_crowns"] = VictoryCrowns
     options["elimination_goal"] = EliminationTokens
     options["accolade_precentage"] = AccoladeGoal
-    options["sprites_needed_goal"] = SpritesNeeded
 #-- Locations ----------------------------------------------
     options["remove_accolades"] = RemoveAccolades
     options["archipelago_locations"] = ArchipelagoLocations 
@@ -235,7 +247,6 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["vault_key_cards"] = VaultKeyCards 
     options["consumable_toggle"] = ConsumableToggle
     options["utlity_toggle"] = UtilityToggle 
-    options["sprite_toggle"] = SpriteToggle
     #options["progressive_fishing"] = ProgressiveFishing 
     options["super_weapon_varients"] = SuperWeaponVarients 
 #-- Skills -------------------------------------------------
@@ -244,7 +255,12 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["weapon_mastery"] = WeaponMastery 
     options["progressive_gamemode"] = ProgressiveGamemode 
     options["move_randomization"] = MoveRando 
-
+#-- Sprites ------------------------------------------------
+    options["sprite_locations"] = SpritesNeeded
+    options["sprite_toggle"] = SpriteToggle
+    options["sprite_sanity_toggle"] = SpriteSanity
+    options["sprite_type_list"] = SpriteTypes
+    options["sprite_vaients_list"] = SpritesVarients
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -268,7 +284,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]): # type: ignore
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]: # type: ignore
     
-    groups['Goal Options'] = [VictoryCrowns,EliminationTokens,AccoladeGoal,SpriteToggle,SpritesNeeded]
+    groups['Goal Options'] = [VictoryCrowns,EliminationTokens,AccoladeGoal]
 
     groups['Locations'] = [RemoveAccolades,ArchipelagoLocations,BossHunt,EliminationLocations] #RiftAnomaliesToggle
 
@@ -278,6 +294,7 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
 
     groups['Skills'] = [LessonSkills,ShoppingToggle,WeaponMastery,ProgressiveGamemode,MoveRando]
 
+    groups['Sprites'] = [SpritesNeeded,SpriteToggle,SpriteSanity,SpriteTypes,SpritesVarients]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]: # type: ignore
